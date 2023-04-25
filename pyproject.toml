@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bpe-re"
+version = "0.1.0"
+description = "A basic regular expression engine for the byte pair encodings of OpenAI's LLMs."
+authors = ["Kyle Williams <kyle.anthony.williams2@gmail.com>"]
+readme = "README.md"
+packages = [{include = "bpe_re"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+tiktoken = "^0.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
